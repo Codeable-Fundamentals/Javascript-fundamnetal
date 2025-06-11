@@ -37,6 +37,67 @@ const no_se_puede_reasignar = "HOLA!";
 
 console.log("valor const 1: ", no_se_puede_reasignar);
 
-no_se_puede_reasignar = "skdfjkhd";
+// no_se_puede_reasignar = "skdfjkhd";
 
-console.log("valor const 2: ", no_se_puede_reasignar);
+// console.log("valor const 2: ", no_se_puede_reasignar);
+
+console.log("---------------------------");
+console.log("//        SYMBOL        //");
+console.log("---------------------------");
+
+const sym1 = Symbol();
+const sym2 = Symbol("foo"); // direcion : abc1123
+const sym3 = Symbol("foo"); // direcion : vcyta123
+
+console.log("tipo sym2: ", typeof sym2)
+console.log("tipo sym3: ", typeof sym3)
+
+console.log("sym1: ", sym1);
+console.log("sym2: ", sym2);
+console.log("sym3: ", sym3);
+
+console.log(sym2 === sym3); // compraracion de direcion de memoria
+console.log(sym2 == sym3); // comparacion de valores
+
+console.log("---------------------------");
+console.log("//        number        //");
+console.log("---------------------------");
+
+let num1 = 123;
+let num2 = 123;
+
+console.log("Type de num1: ", typeof num1);
+console.log("Type de num2: ", typeof num2);
+
+console.log(num1 === num2); // compara valor y tipo
+console.log(num1 == num2); // compara solo valor
+
+console.log("---------------------------");
+console.log("//        ejemplos        //");
+console.log("---------------------------");
+
+console.log("---------------------------");
+console.log("ejemplo : number + string")
+console.log("---------------------------");
+
+let myAge = 27;
+let myAge2 = "27";
+
+console.log("Type de myAge: ", typeof myAge);
+console.log("Type de myAge2: ", typeof myAge2);
+
+console.log(myAge == myAge2);
+console.log(myAge === myAge2);
+
+console.log("---------------------------");
+console.log("ejemplo : obj")
+console.log("---------------------------");
+
+let object = {};
+let object2 = {};
+
+console.log("Type de object: ", typeof object);
+console.log("Type de object2: ", typeof object2);
+
+console.log(object == object2);
+console.log(object === object2); // si da false por que a pesar de que son del mismo tipo tienene un direcion de memoria distinta
