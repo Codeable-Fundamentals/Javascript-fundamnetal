@@ -49,8 +49,8 @@ const sym1 = Symbol();
 const sym2 = Symbol("foo"); // direcion : abc1123
 const sym3 = Symbol("foo"); // direcion : vcyta123
 
-console.log("tipo sym2: ", typeof sym2)
-console.log("tipo sym3: ", typeof sym3)
+console.log("tipo sym2: ", typeof sym2);
+console.log("tipo sym3: ", typeof sym3);
 
 console.log("sym1: ", sym1);
 console.log("sym2: ", sym2);
@@ -77,7 +77,7 @@ console.log("//        ejemplos        //");
 console.log("---------------------------");
 
 console.log("---------------------------");
-console.log("ejemplo : number + string")
+console.log("ejemplo : number + string");
 console.log("---------------------------");
 
 let myAge = 27;
@@ -90,7 +90,7 @@ console.log(myAge == myAge2);
 console.log(myAge === myAge2);
 
 console.log("---------------------------");
-console.log("ejemplo : obj")
+console.log("ejemplo : obj");
 console.log("---------------------------");
 
 let object = {};
@@ -101,3 +101,23 @@ console.log("Type de object2: ", typeof object2);
 
 console.log(object == object2);
 console.log(object === object2); // si da false por que a pesar de que son del mismo tipo tienene un direcion de memoria distinta
+
+console.log("---------------------------");
+console.log("//      regla del =       //");
+console.log("---------------------------");
+
+// 155 = 144
+
+let number = 100;
+let suma = number + 500;
+
+console.log("number valor : ", number);
+console.log("number suma : ", suma);
+
+let xyz = "abc"
+let huy = xyz
+
+console.log("number valor : ", xyz);
+console.log("number suma : ", huy);
+
+// las variables apuntan a valores
