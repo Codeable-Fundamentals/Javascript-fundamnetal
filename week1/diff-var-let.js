@@ -47,4 +47,4 @@ var numero = 5; // Se eleva y se inicializa el valor , por eso no tiera ERROR
 // Cada ves que decalaros una variable con VAR , pesta siempre se iniciliza con "UNDEFINED"
 
 // LET , solo tiene un conetxto(ambito) de bloque.
-// Cada vez que declaramos una variable con LET , esta NO se inicializa, por lo que si la usas antes de ser definidida, tirara un error.
+// Cada vez que declaramos una variable con LET , esta NO se inicializa, por lo que si la usas antes de ser definidida, tirara un error
