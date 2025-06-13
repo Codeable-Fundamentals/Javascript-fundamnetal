@@ -15,5 +15,19 @@ function actualizarPromedio(estudiante, nuevaCalificacion) {
 
 // Prueba:
 let estudiante1 = crearEstudiante("Carlos", 20, "Ingeniería");
-console.log(estudiante1);
+console.log(estudiante1); // aqui empezara con la propiedad promedio en 0
+// {
+//   name: "Carlos", 
+//   age: 20, 
+//   carrera: "Ingeniería", 
+//   promedio: 0
+// }
+
 console.log(actualizarPromedio(estudiante1, 85));
+console.log(estudiante1); // aqui la propiedad pormedio sera 85
+// {
+//   name: "Carlos", 
+//   age: 20, 
+//   carrera: "Ingeniería", 
+//   promedio: 85
+// }
