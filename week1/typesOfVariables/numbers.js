@@ -26,3 +26,7 @@ console.log(a, " | ", b , " | ", c , " | ", d);
 
 let example= Math.sqrt(-49)
 console.log(example) // NaN
+
+
+
+console.log("precision con muchos decimales: ", 0.1555000000000000 + 0.00000000001)
