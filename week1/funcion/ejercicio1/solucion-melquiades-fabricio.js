@@ -22,6 +22,8 @@ function puedeConducir(edad, tieneLicencia) {
 }
 
 // Pruebas:
+console.log(puedeConducir(18, false)); // "Puede conducir"
+console.log(puedeConducir("Dieciocho", "false")); // "Puede conducir"
 console.log(puedeConducir(20, true)); // "Puede conducir"
 console.log(puedeConducir(17, true)); // "No puede conducir"
 console.log(puedeConducir(25, false)); // "No puede conducir"

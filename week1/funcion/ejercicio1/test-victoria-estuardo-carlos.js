@@ -19,5 +19,3 @@ function puedeConducir(edad, tieneLicencia) {
 console.log(puedeConducir(18, true)); // "Datos inválidos"
 console.log(puedeConducir(170, true)); // "Datos inválidos"
 console.log(puedeConducir(25, false)); // "No puede conducir"
-
-
