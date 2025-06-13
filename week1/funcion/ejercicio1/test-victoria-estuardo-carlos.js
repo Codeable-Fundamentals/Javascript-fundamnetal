@@ -5,7 +5,8 @@ function puedeConducir(edad, tieneLicencia) {
   if (
     typeof edad !== "number" ||
     typeof tieneLicencia !== "boolean" ||
-    edad < 0
+    edad < 0 ||
+    edad > 120
   ) {
     return "Datos inválidos";
   } else if (edad >= 18 && tieneLicencia) {
@@ -17,5 +18,5 @@ function puedeConducir(edad, tieneLicencia) {
 
 // Pruebas:
 console.log(puedeConducir("gggg", true)); // "Puede conducir"
-console.log(puedeConducir(17, true)); // "No puede conducir"
+console.log(puedeConducir(170, true)); // "No puede conducir"
 console.log(puedeConducir(25, false)); // "No puede conducir"
