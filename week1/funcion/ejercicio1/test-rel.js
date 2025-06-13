@@ -1,7 +1,9 @@
 function puedeConducir(edad, tieneLicencia) {
-  // Debe ser mayor de 18 años Y tener licencia
-  // Retorna: "Puede conducir" o "No puede conducir"
-  // Usa operadores lógicos (&&, ||)
+  if (edad >= 18 && tieneLicencia) {
+    return "Puede conducir";
+  } else {
+    return "No puede conducir";
+  }
 }
 
 // Pruebas:
