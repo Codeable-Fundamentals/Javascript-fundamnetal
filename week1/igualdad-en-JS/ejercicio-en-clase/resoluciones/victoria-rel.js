@@ -6,6 +6,16 @@
 // si tiene ambos (Nombre y edad) , entonces devuelve true
 // Si le falta alguna de ellas, entonces deveulve false
 
+/*
+| Criteria / Test Case         | TC1           | TC2              | TC3               | TC4              | TC5           | TC6              |
+|-----------------------------|----------------|-------------------|--------------------|-------------------|----------------|-------------------|
+| nombre                      | "Ana"          | "Luis"            | null               | (no definido)     | "Ana"          | "Ana"             |
+| edad                        | 25             | (no definido)     | 25                 | 30                | NaN            | "25" (string)     |
+| ¿Valida? (validarDatos)     | ✅ true         | ❌ false           | ❌ false           | ❌ false           | ❌ false        | ❌ false           |
+| Regla de negocio (BR)       | BR1: válido     | BR2: falta edad   | BR3: nombre inválido | BR4: falta nombre | BR5: edad inválida | BR6: edad debe ser número |
+*/
+
+
 function validarDatos(persona) {
   if (
     persona.nombre &&
