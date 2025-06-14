@@ -37,6 +37,11 @@ console.log("---------------------- ");
 console.log("Comparacion == con array: ", [] == []); 
 console.log("Comparacion === con array: ", [] === []); 
 console.log("Comparacion Object.is con array: ", Object.is([], [])); 
+console.log("-------Array 2--------------- ");
+console.log("Comparacion == con array: ", [1, 2] == [1, 2]); // false
+console.log("Comparacion === con array: ", [1, 2] === [1, 2]); // false
+console.log("Comparacion Object.is con array: ", Object.is([1, 2], [1, 2])); // false
+
 
 console.log("---------------------- ");
 console.log("Comparacion == con +0 y -0: ", +0 == -0); // true
