@@ -14,7 +14,7 @@ const persona2 = { nombre: "Luis" };
 const persona3 = { edad: 30 };
 const persona4 = { nombre: null, edad: 25 };
 const persona5 = { };
-const persona6 = { nombre: null, edad: NaN };
+const persona6 = { nombre: "Ana", edad: NaN };
 
 console.log(validarDatos(persona1)); // true
 console.log(validarDatos(persona2)); // false
