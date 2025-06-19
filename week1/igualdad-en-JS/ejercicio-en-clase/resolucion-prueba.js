@@ -29,6 +29,7 @@ const persona5 = {};
 const persona6 = { nombre: "Ana", edad: NaN };
 const persona7 = { nombre: 23, edad: 23 };
 
+
 console.log("Solucion de la profesora : ");
 console.log(validarDatos(persona1)); // true
 console.log(validarDatos(persona2)); // false
