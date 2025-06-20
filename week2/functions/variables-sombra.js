@@ -7,3 +7,5 @@ function saludarJuan() {
 
 saludarJuan() // "Hola Melquiades"
 console.log(nombre) // Oscar
+
+console.log("jajajaj")
